@@ -1,0 +1,59 @@
+///creating tables
+CREATE TABLE mentors
+(SSN INTEGER PRIMARY KEY,
+namae TEXT,
+DOB TEXT,
+seniority TEXT,
+salary TEXT,
+office TEXT);
+
+CREATE TABLE students
+(studentNO INTEGER PRIMARY KEY,
+SSN INTEGER UNIQUE,
+name TEXT,
+DOB TEXT,
+skills TEXT);
+
+CREATE TABLE cohort
+(cohorID INTEGER PRIMARY KEY,
+number INTEGER UNIQUE,
+startDate TEXT,
+EndDate TEXT);
+
+CREATE TABLE topic
+(topicID INTEGER PRIMARY KEY,
+title TEXT UNIQUE,
+description TEXT);
+
+CREATE TABLE department
+(depID INTEGER PRIMARY KEY,
+name TEXT UNIQUE,
+office TEXT UNIQUE);
+
+//add records
+
+INSERT INTO mentors(ssn, name, DOB, seniority, salary, office)
+VALUES(12, 'Raoul', 2002, 'junior', 800, '102')
+
+INSERT INTO mentors(ssn, name, DOB, seniority, salary, office)
+VALUES(17, 'Zeinab', 1998, 'senior', 1200, '102')
+
+INSERT INTO mentors(ssn, name, DOB, seniority, salary, office)
+VALUES(12, 'Hadeel', 2005, 'junior', 1000, '100')
+
+INSERT INTO mentors(ssn, name, DOB, seniority, salary, office)
+VALUES(12, 'Peter', 1999, 'junior', 2000, '103')
+
+
+INSERT INTO students(SSN, name, DOB, skills)
+VALUES(5455, 'Nancy Rahhal', 1997, 'css');
+
+
+INSERT INTO students(SSN, name, DOB, skills)
+VALUES(5445, 'Ali Saghir', 2000, 'js');
+
+INSERT INTO students(SSN, name, DOB, skills)
+VALUES(5456, 'Moussa Karam', 1988, 'js');
+
+INSERT INTO students(SSN, name, DOB, skills)
+VALUES(5459, 'Malak Hamwi', 2001, 'html');

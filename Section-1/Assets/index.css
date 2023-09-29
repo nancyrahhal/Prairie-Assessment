@@ -27,6 +27,16 @@ input{
 
 img{
     border-radius: 50px;
-    height: 100%;
+    height: auto;
     width: 50%;
+}
+
+.stuff{
+    display: flex;
+}
+.checkbox_remind{
+    justify-content: flex-start;
+}
+.password{
+    justify-content: flex-end;
 }
