@@ -6,7 +6,7 @@ B. By using JSX, we can write HTML structures in the same file that contains Jav
 C. By using JSX, we can compile Javascript code to the browser.
 D. JSX is the engine used by web browser to render Javascript code.
 
-Answer:
+Answer: B
 
 ------------
 
@@ -18,7 +18,7 @@ B. The Document Object Model (DOM) is a platform and language-neutral interface 
 C. The virtual DOM is a programming concept where an ideal, or “virtual”, representation of a UI is kept in memory and synced with the “real” DOM by a library such as ReactDOM
 D. The virtual DOM is an exact replica of the referenced "DOM", having same functionality and structure, which enables good user interface
 
-Answer:
+Answer: C
 
 ------------
 
@@ -30,7 +30,7 @@ B. A component is a piece of code that we run using the compiler.
 C. A component makes it that it is unnecessary to bind ‘this’ inside the constructor when using an arrow function. This prevents bugs caused by the use of ‘this’ in React callbacks.
 D. A component is essentially a piece of the user interface. It splits the user interface into independent, reusable parts that can be processed separately.
 
-Answer:
+Answer: D
 
 ------------
 
@@ -42,7 +42,7 @@ B. Functional, Class Components.
 C. State, Prop Components.
 D. Singular, Multiple Components.
 
-Answer:
+Answer: B
 
 ------------
 
